@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-
-import math
 """This module defines a floor method"""
+import math
 
 
 def floor(n: float) -> int:
