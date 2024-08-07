@@ -9,5 +9,5 @@ async def async_generator() -> AsyncGenerator[float, None]:
     """This fucntion yields a random number between 0 and 10"""
     for _ in range(10):
         await asyncio.sleep(1)
-        ram_num = random.uniform(0, 10)
+        ram_num: float = random.uniform(0, 10)
         yield ram_num
